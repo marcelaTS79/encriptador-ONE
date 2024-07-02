@@ -5,21 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encriptador de Texto</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./img/Encrypted-text.jpg">
     <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </head>
 <body>
+    <header>
+        <div class="container__header">
+            <div class="header">
+                <img class="logo" src="./img/Logo.png" alt="Logo">
+            </div>
+        </div>
+    </header>
     <div class="container">
         <div class="encriptar">
             <textarea
-            name="texto"
-            class="texto"
-            id="texto"
-            cols="30"
-            rows="10"
-            placeholder="Ingresar el texto aquí">
-            </textarea>
-        
+                name="texto"
+                class="texto"
+                id="texto"
+                cols="30"
+                rows="10"
+                placeholder="Ingresar el texto aquí"
+            ></textarea>
+        </div>
         <div class="terminos">
+            <img src="./img/exclamación-.png" alt="advertencia" />
             <p>Solo minúsculas y sin acento.</p>
         </div>
         <div class="botones">
@@ -30,21 +40,26 @@
     <div class="encriptado">
         <img src="img/lupa.png" alt="Lupa de búsqueda" id="lupa">
         <div class="mensaje__encriptado" id="mensaje__encriptado">
-            <h2 id="titulo__mensaje">No se encontro mensaje</h2>
-            <p id="parrafo">Ingrese texto que desea encriptar o desencriptar</p>
-            <label for="mensaje">Mensaje Encriptado/Desencriptado</label>
-            <textarea 
-                name="mensaje"
-                id="mensaje" 
-                cols="30" 
-                rows="10"
-                class="mensaje"
-                placeholder="El mensaje encriptado o desencriptado aparecerá aquí"
-                title="Área para mostrar el mensaje encriptado o desencriptado">
-            </textarea>
+            <h2 id="titulo__mensaje">No se encontró mensaje</h2>
+            <p id="parrafo">Ingrese texto que desee encriptar o desencriptar</p>
         </div>
     </div>
-</div>
 </body>
+<footer class="footer">
+    <p class="creador">Create by
+        <a href="https://github.com/marcelaTS79" target="_blank" rel="noopener noreferrer" class="usuario">
+            marcelaTS79
+        </a>
+    </p>
+    <div class="social-links">
+        <a href="https://github.com/marcelaTS79" target="_blank" rel="noopener noreferrer">
+            <img class="links" alt="Github" src="./img/github.png" />
+        </a>
+        <a href="https://www.linkedin.com/in/lina-marcela-tangarife-sanchez-95a4ab311/" target="_blank" rel="noopener noreferrer">
+            <img class="links" alt="Linkedin" src="./img/linkedin.png" />
+        </a>
+    </div>
+</footer>
+
 <script src="index.js"></script>
 </html>
