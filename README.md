@@ -40,5 +40,5 @@ git clone https://github.com/marcelats79/encriptador-ONE.git
 cd encriptador-ONE
 Abre index.html en tu navegador web.
 
-##Contacto
+## Contacto
 Para cualquier consulta o sugerencia, por favor contacta a [Marcela TS.](https://github.com/marcelats79)
